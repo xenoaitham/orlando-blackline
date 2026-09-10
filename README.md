@@ -12,6 +12,26 @@
  ## How i worked on this website
  i was working two paths at a time was building smth with my own Hands then pass it to AI to Polish it also was using it for overthinking
 
+ -------
+**how to run it locally**
+
+**clone repo**
+```
+git clone https://github.com/xenoaitham/orlando-blackline.git
+cd orlando-blackline
+```
+**Install independices**
+```
+npm install
+```
+**Start Dev Server**
+```
+npm run dev
+```
+**Build for Production**
+```
+npm run build
+```
 ## 🌐 Live Website 
 The production build is currently deployed and live at:
 [https://orlandoblacklinetransportation.com](https://orlandoblacklinetransportation.com/)

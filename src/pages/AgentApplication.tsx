@@ -39,7 +39,7 @@ export default function AgentApplication() {
             </p>
           </div>
         ) : (
-          <form action="https://formsubmit.co/info@orlandoblacklinetransportation.com" method="POST" className="bg-[#111] border border-white/10 p-8 md:p-12 shadow-2xl">
+          <form action="/api/sendEmail" method="POST" className="bg-[#111] border border-white/10 p-8 md:p-12 shadow-2xl">
             {/* Formsubmit config */}
             <input type="hidden" name="_subject" value="🌟 New Travel Agent Partnership Application" />
             <input type="hidden" name="_template" value="box" />

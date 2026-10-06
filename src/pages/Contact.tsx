@@ -126,7 +126,7 @@ export default function Contact() {
               ) : (
                 <div className="bg-[#111111] border border-white/10 p-8 md:p-12">
                   <h3 className="font-display text-2xl text-white mb-8">Send Us a Message</h3>
-                  <form action="https://formsubmit.co/info@orlandoblacklinetransportation.com" method="POST" className="space-y-6">
+                  <form action="/api/sendEmail" method="POST" className="space-y-6">
                     {/* Formsubmit config */}
                     <input type="hidden" name="_subject" value="🌟 New Message from Contact Page" />
                     <input type="hidden" name="_template" value="box" />
